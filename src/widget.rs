@@ -160,7 +160,6 @@ where
         layout: layout::Layout<'_>,
         cursor: mouse::Cursor,
         _renderer: &Renderer,
-        _clipboard: &mut dyn iced_core::Clipboard,
         shell: &mut iced_core::Shell<'_, Message>,
         _viewport: &Rectangle,
     ) {
